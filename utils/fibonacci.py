@@ -1,8 +1,6 @@
 def fibonacci(end):
-    prev = 0
-    cur = 1
-    
-    yield prev
-    while cur <= end:
-        yield cur
+    prev, cur = 0, 1
+
+    while prev <= end:
+        yield prev
         prev, cur = cur, prev + cur
