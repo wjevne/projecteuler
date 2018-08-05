@@ -1,4 +1,4 @@
-from utils.fibonacci import fibonacci
+from solutions.utils.fibonacci import fibonacci
 
 
 def sum_of_even_fibonacci(value):

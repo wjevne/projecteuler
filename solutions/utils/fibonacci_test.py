@@ -1,6 +1,6 @@
 import pytest
 
-from utils.fibonacci import fibonacci
+from solutions.utils.fibonacci import fibonacci
 
 
 def test_1():

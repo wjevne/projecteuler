@@ -1,6 +1,6 @@
 import pytest
 
-from utils.factorization import wheel, factor
+from solutions.utils.factorization import wheel, factor
 
 
 def test_1():
